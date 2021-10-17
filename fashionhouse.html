@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+
+
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+        }
+        .name{
+            margin:10px;
+        }
+        .top{
+            display:flex;
+            justify-content: space-between;
+            background-color:rgb(21, 62, 63);
+            color:white
+            
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+
+        }
+        ul li{
+            margin:20px;
+            padding:10px;
+        }
+        .banner{
+            width: 229vh;
+            height:80vh;
+        }
+        .card-cont{
+            display: flex;
+            justify-content: center;
+            margin:0px;
+        }
+       .card1{
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border-style: solid;
+            margin-top:20px ;
+            margin-left:120px;
+           
+        }
+        .product{
+            padding-left:15px;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        .pic{
+            width: 280px;
+            height : 300px;
+            padding-top:15px;
+            padding-right:15px;
+        }
+        .product-name{
+            margin-top: 5px;
+            font-size: 18px;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: 50; 
+        }
+        button{
+
+            background-color: rgb(240, 240, 11);
+            border-radius: 10px;
+            border-style: none;
+        }
+        .add{
+            margin-bottom : 30px;
+        }  
+        .checked{
+            color:tomato
+        }
+        .active{
+            background-color: rgb(1, 39, 35);
+            border-radius: 5px;
+            padding:10px
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="top"> 
+        <div class="name">
+            <h1><i class="fa fa-shopping-basket"></i>Fashion House</h1>
+        </div>
+         <ul>
+            <li class="active"><i class="fa fa-home"></i>Home</li>
+            <li><i class="fa fa-book"></i>About</li>
+            <li><i class="fa fa-phone"></i>Contact</li>
+            <li><i class="fa fa-commenting"></i>Feedback</li>
+            <li><i class="fa fa-lock"></i>Login</li>
+
+        </ul>
+    </div>
+
+    <div>
+        <img class= "banner" src="./Banner-4.jpg">
+
+    </div>
+
+    
+
+    <div class="card-cont">
+        <div class="card1">
+            <div class="product">
+                <img class= "pic" src="./pic1.jpg">
+                <h1 class="product-name">Neutrons|Solid Stretch|Black</h1>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half-full checked"></span>
+                <span class="fa fa-star"></span>
+                <span>1560</span>
+                <p class="cost">₹ 2,598</p>
+                <button class="add">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="card1">
+            <div class="product">
+                <img class= "pic" src="./pic2.jpg">
+                <h1 class="product-name">Neutrons|Solid Stretch|Black</h1>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half-full checked"></span>
+                <span class="fa fa-star"></span>
+                <span>1560</span>
+                <p class="cost">₹ 2,598</p>
+                <button class="add">Add to Cart</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="card-cont">
+        <div class="card1">
+            <div class="product">
+                <img class= "pic" src="./pic3.jpeg">
+                <h1 class="product-name">Violen-Geometric Print Dress | Navy</h1>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half-full checked"></span>
+                <span class="fa fa-star"></span>
+                <span>1560</span>
+                <p class="cost">₹ 2,598</p>
+                <button class="add">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="card1">
+            <div class="product">
+                <img class= "pic" src="./pic4.jpg">
+                <h1 class="product-name">Grid - Solid | Tieup Shirt</h1>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half-full checked"></span>
+                <span class="fa fa-star"></span>
+                <span>1560</span>
+                <p class="cost">₹ 2,598</p>
+                <button class="add">Add to Cart</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="card-cont">
+        <div class="card1">
+            <div class="product">
+                <img class= "pic" src="./pic5.jpg">
+                <h1 class="product-name">Enhance-Floral Print | Dress - LightBlue</h1>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half-full checked"></span>
+                <span class="fa fa-star"></span>
+                <span>1560</span>
+                <p class="cost">₹ 2,598</p>
+                <button class="add">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="card1">
+            <div class="product">
+                <img class= "pic" src="./pic6.jpg">
+                <h1 class="product-name">Delight-Floral Printed Dress | Navy</h1>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half-full checked"></span>
+                <span class="fa fa-star"></span>
+                <span>1560</span>
+                <p class="cost">₹ 2,598</p>
+                <button class="add">Add to Cart</button>
+            </div>
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
